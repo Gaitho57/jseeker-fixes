@@ -1,0 +1,2 @@
+<div class="right-column w-2/5 bg-jseek-primary h-full min-h-[300px] rounded-l-3xl" style="height: calc(100vh - 240px)">
+        </div>
