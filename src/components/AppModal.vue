@@ -2,7 +2,7 @@
   <div v-if="isVisible" class="modal-overlay" @click.self="closeModal">
     <div class="modal-content">
       <button class="close-button" @click="closeModal">×</button>
-      <slot></slot>
+      <slot name="default"></slot>
     </div>
   </div>
 </template>
@@ -65,5 +65,12 @@ export default {
 
 .close-button:hover {
   color: #ff0000; /* Red color on hover */
+}
+
+/* Additional styles for image inside the modal */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 </style>
